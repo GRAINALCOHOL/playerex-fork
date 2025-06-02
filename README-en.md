@@ -1,5 +1,7 @@
 # PlayerEX alcohol
 
+| [**简体中文**](README.md) | >**English**< |
+
 ## What has been done?
 
 1. Reduced critical damage attribute strength
