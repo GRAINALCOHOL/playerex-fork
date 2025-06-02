@@ -1,0 +1,245 @@
+{
+    "key.categories.playerex": "PlayerEX",
+    "playerex.key.main_screen": "打开属性界面",
+
+    "playerex.ui.main.title":[
+        {"text": "\uD83D\uDDB3 ", "color": "#F0C25E"},
+        {"text": "PlayerEX • 主界面", "color": "white"}
+    ],
+
+    "playerex.ui.main.exit": "退出",
+    "playerex.ui.main.exit.tooltip": "退出界面",
+
+    "playerex.ui.main.skill_points_header": "技能点",
+    "playerex.ui.main.modified_attributes": [ {"text": "❤ ", "color": "#48D19B"}, {"text": "属性强化", "color": "white"} ],
+
+    "playerex.ui.category.attributes": "属性点",
+
+    "playerex.ui.current_level": [
+        {"text": "❤ ", "color": "#F0C25E"},
+        {"text": "等级: ", "color": "white"},
+        {"index": 0},
+        {"text": " (提升至下一等级需要", "color": "#757575"},
+        {"index": 1, "color": "#757575", "italic": true, "underline": true },
+        {"text": " 级经验)", "color": "#757575", "italic": true }
+    ],
+    "playerex.ui.level_button": [
+        {"text": "", "color": "#F0C25E"},
+        {"text": "共需要消耗 ", "color": "white"},
+        {"index": 0},
+        {"text": " 级经验来获得 ", "color": "white"},
+        {"index": 1},
+        {"text": " 个技能点", "color": "white"}, "\n",
+        {"text": "★ ", "color": "#62D16A"},
+        {"text": "当前经验等级: ", "color": "white"},
+        {"index": 2}
+    ],
+
+    "playerex.ui.nameplate.level": "<Lv. %s>",
+
+    "playerex.ui.main.categories.melee_combat": "⚔ 近程",
+    "playerex.ui.main.categories.ranged_combat": "🏹 远程",
+    "playerex.ui.main.categories.defense_combat": "🛡 防御",
+    "playerex.ui.main.categories.vitality": "💖 生命",
+    "playerex.ui.main.categories.resistance": "🩹 效果抵抗",
+
+    "attribute.name.playerex.level": "等级",
+    "attribute.name.playerex.constitution": "体质",
+    "attribute.name.playerex.strength": "力量",
+    "attribute.name.playerex.dexterity": "灵巧",
+    "attribute.name.playerex.intelligence": "智力",
+    "attribute.name.playerex.luckiness": "运气",
+    "attribute.name.playerex.focus": "专注",
+    "attribute.name.playerex.evasion": "闪避",
+    "attribute.name.playerex.lifesteal": "吸血",
+    "attribute.name.playerex.health_regeneration": "生命恢复",
+    "attribute.name.playerex.heal_amplification": "治疗加成",
+    "attribute.name.playerex.melee_crit_damage": "近程.暴击伤害",
+    "attribute.name.playerex.melee_crit_chance": "近程.暴击率",
+    "attribute.name.playerex.ranged_crit_damage": "远程.暴击伤害",
+    "attribute.name.playerex.ranged_crit_chance": "远程.暴击率",
+    "attribute.name.playerex.ranged_damage": "远程伤害",
+    "attribute.name.playerex.fire_resistance": "火焰抗性",
+    "attribute.name.playerex.freeze_resistance": "冰冻抗性",
+    "attribute.name.playerex.lightning_resistance": "闪电抗性",
+    "attribute.name.playerex.poison_resistance": "毒抗性",
+    "attribute.name.playerex.wither_resistance": "凋零抗性",
+    "attribute.name.playerex.breaking_speed": "挖掘速度",
+
+    "attribute.name.playerex.mining": "挖掘",
+    "attribute.name.playerex.enchanting": "附魔",
+    "attribute.name.playerex.alchemy": "酿造",
+    "attribute.name.playerex.fishing": "钓鱼",
+    "attribute.name.playerex.logging": "伐木",
+    "attribute.name.playerex.smithing": "锻造",
+    "attribute.name.playerex.farming": "种植",
+
+    "sound.playerex.spend":"消耗技能点/经验",
+    "sound.playerex.refund":"返还/重置技能点",
+    "sound.playerex.level_up":"玩家：升级",
+
+    "playerex.broken": "已损坏",
+
+    "playerex.formula_type.flat": "固定",
+    "playerex.formula_type.diminished": "递减",
+
+    "playerex.ui.main.labels.health": "生命值",
+
+    "playerex.ui.main.sections.vigor": "恢复与抗性",
+    "playerex.ui.main.sections.combat_stats": "战斗属性",
+
+    "attribute.name.playerex.percent_damage_reduction": "% 伤害减免",
+
+    "playerex.item.level": [
+        {"text": "等级：", "color": "#6EBAE5"},
+        {"index": 0, "color": "gold"},
+        {"text": "/", "color": "gold"},
+        {"index": 1, "color": "gold"}
+    ],
+
+    "playerex.item.experience": [
+        {"text": "经验：", "color": "#6EBAE5"},
+        {"index": 0, "color": "gold"},
+        {"text": "/", "color": "gold"},
+        {"index": 1, "color": "gold"}
+    ],
+
+    "playerex.item.reduction": [
+        {"index": 0, "color": "blue"},
+        {"text": "% 伤害减免", "color": "blue"}
+    ],
+
+    "playerex.command.updated_result": [
+        {"text": "➜ ", "color": "gray"},
+        {"text": "Updated Result: "},
+        {"index": 0, "color": "#60DF90"}
+    ],
+    "playerex.command.level_up": [
+        {"text": "❤ ", "color": "#F6CB3B"},
+        {"text": "Added ", "color": "white"},
+        {"index": 0, "color": "#60DF90"},
+        {"text": " level(s) to ", "color": "white"},
+        {"index": 1}
+    ],
+    "playerex.command.max_error": [
+        {"text": "⚑ ", "color": "#F53E3E"},
+        {"index": 0, "color": "#EEBC58"},
+        {"text": " is already at a maximum value for ", "color": "white"},
+        {"index": 1, "color": "#F6CB3B"},
+        {"text": ", and cannot be increased further!", "color": "white"}
+    ],
+    "playerex.command.level_get": [
+        {"text": "» ", "color": "#F6CB3B"},
+        {"text": "The current level of ", "color": "white"},
+        {"index": 0, "color": "#F6CB3B"},
+        {"text": " is at ", "color": "white"},
+        {"index": 1, "color": "#60DF90"}
+    ],
+    "playerex.command.refund.get": [
+        {"text": "» ", "color": "#F6CB3B"},
+        {"index": 0, "color": "#60DF90"},
+        {"text": " currently has ", "color": "white"},
+        {"index": 1, "color": "#F6CB3B"},
+        {"text": " refundable points.", "color": "white"}
+    ],
+    "playerex.command.skill_get": [
+        {"text": "» ", "color": "#F6CB3B"},
+        {"index": 0, "color": "#EEBC58"},
+        {"text": " is currently at ", "color": "white"},
+        {"index": 1, "color": "#60DF90"},
+        {"text": " for ", "color": "white"},
+        {"index": 2}
+    ],
+    "playerex.command.skill_up": [
+        {"text": "❤ ", "color": "#F6CB3B"},
+        {"text": "Added ", "color": "white"},
+        {"index": 0, "color": "#60DF90"},
+        {"text": " point(s) to ", "color": "white"},
+        {"index": 1, "color": "#EEBC58"},
+        {"text": " for ", "color": "white"},
+        {"index": 2}
+    ],
+    "playerex.command.refunded": [
+        {"text": "❤ ", "color": "#4ED780"},
+        {"text": "Refunded ", "color": "white"},
+        {"index": 0, "color": "#60DF90"},
+        {"text": " point(s) from ", "color": "white"},
+        {"index": 1, "color": "#EEBC58"},
+        {"text": " to ", "color": "white"},
+        {"index": 2}
+    ],
+    "playerex.command.skill_error": [
+        {"text": "⚑ ", "color": "#F53E3E"},
+        {"index": 0, "color": "white"}
+    ],
+    "playerex.command.reset": [
+        {"text": "❤ ", "color": "#F53E3E"},
+        {"text": "Reset level, skills and points for ", "color": "white"},
+        {"index": 0, "color": "#EEBC58"}
+    ],
+    "playerex.command.refund.add": [
+        {"text": "❤ ", "color": "#F53E3E"},
+        {"text": "Added ", "color": "white"},
+        {"index": 0, "color": "#EEBC58"},
+        {"text": " refundable points to ", "color": "white"},
+        {"index": 1}
+    ],
+    "playerex.command.refund_error": [
+        {"text": "⚑ ", "color": "#F53E3E"},
+        {"index": 0, "color": "#EEBC58"},
+        {"text": " does not have enough points to refund!", "color": "white"}
+    ],
+
+    "playerex.command.reset_chunk": "Reset experience negation factor for chunk at %s",
+    "playerex.command.refund": "Refunded %s skill points for player %s",
+    "playerex.command.refund_attribute_unskilled": "%s has not been skilled for player %s!",
+
+    "text.config.playerex-config.title": "PlayerEX 配置",
+    "text.config.playerex-config.section.client_options": "客户端选项",
+    "text.config.playerex-config.section.server_options": "服务端选项",
+    "text.config.playerex-config.enum.tooltip.default": "默认",
+    "text.config.playerex-config.enum.tooltip.vanilla": "原版",
+    "text.config.playerex-config.enum.lifecycle.on_tick": "每刻",
+    "text.config.playerex-config.enum.lifecycle.on_every_second": "每秒",
+    "text.config.playerex-config.category.levelingSettings": "升级设置",
+    "text.config.playerex-config.option.levelingSettings.skillPointsPerLevelUp": "每次升级获得的技能点",
+    "text.config.playerex-config.option.levelingSettings.levelFormula": "升级公式",
+    "text.config.playerex-config.category.featureSettings": "功能选项",
+    "text.config.playerex-config.option.featureSettings.resetOnDeath": "死亡时重置",
+    "text.config.playerex-config.option.featureSettings.itemBreakingEnabled": "装备耐久耗尽保护",
+    "text.config.playerex-config.option.featureSettings.disableUI": "禁用UI",
+    "text.config.playerex-config.category.lifecycleSettings": "生命恢复周期设置",
+    "text.config.playerex-config.option.lifecycleSettings.healthRegeneration": "生命恢复",
+    "text.config.playerex-config.category.advancedSettings": "高级选项",
+    "text.config.playerex-config.option.advancedSettings.restorativeForceTicks": "Restorative Force Ticks",
+    "text.config.playerex-config.option.advancedSettings.restorativeForceMultiplier": "Restorative Force Multiplier",
+    "text.config.playerex-config.option.advancedSettings.expNegationFactor": "Experience Negation Factor",
+    "text.config.playerex-config.category.visualSettings": "视觉选项",
+    "text.config.playerex-config.option.visualSettings.showLevelOnNameplates": "在玩家头顶显示等级信息",
+    "text.config.playerex-config.option.visualSettings.nameplateColor": "等级信息颜色",
+    "text.config.playerex-config.option.visualSettings.tooltip": "工具提示样式",
+    "text.config.playerex-config.category.soundSettings": "音效选项",
+    "text.config.playerex-config.option.soundSettings.levelUpVolume": "升级音效音量",
+    "text.config.playerex-config.option.soundSettings.skillUpVolume": "加点音效音量",
+    "text.config.playerex-config.option.soundSettings.refundVolume": "返还音效音量",
+    "text.config.playerex-config.category.weaponLevelingSettings": "武器升级",
+    "text.config.playerex-config.option.weaponLevelingSettings.enabled": "启用",
+    "text.config.playerex-config.option.weaponLevelingSettings.damagePerLevel": "每级额外攻击力",
+    "text.config.playerex-config.option.weaponLevelingSettings.formula": "经验公式",
+    "text.config.playerex-config.option.weaponLevelingSettings.xpFromPassive": "被动生物经验量",
+    "text.config.playerex-config.option.weaponLevelingSettings.xpFromHostile": "敌对生物经验量",
+    "text.config.playerex-config.option.weaponLevelingSettings.xpFromMiniboss": "小BOSS经验量（未使用）",
+    "text.config.playerex-config.option.weaponLevelingSettings.xpFromBoss": "BOSS经验量",
+    "text.config.playerex-config.option.weaponLevelingSettings.maxLevel": "最大等级",
+    "text.config.playerex-config.category.armorLevelingSettings": "盔甲升级",
+    "text.config.playerex-config.option.armorLevelingSettings.enabled": "启用",
+    "text.config.playerex-config.option.armorLevelingSettings.armorPerLevel": "每级额外护甲值",
+    "text.config.playerex-config.option.armorLevelingSettings.reductionPerLevel": "每级伤害减免%",
+    "text.config.playerex-config.option.armorLevelingSettings.maxReduction": "最大伤害减免%",
+    "text.config.playerex-config.option.armorLevelingSettings.formula": "经验公式",
+    "text.config.playerex-config.option.armorLevelingSettings.xpFromPassive": "被动生物经验量",
+    "text.config.playerex-config.option.armorLevelingSettings.xpFromHostile": "敌对生物经验量",
+    "text.config.playerex-config.option.armorLevelingSettings.xpFromMiniboss": "小BOSS经验量（未使用）",
+    "text.config.playerex-config.option.armorLevelingSettings.xpFromBoss": "BOSS经验量",
+    "text.config.playerex-config.option.armorLevelingSettings.maxLevel": "最大等级"
+}

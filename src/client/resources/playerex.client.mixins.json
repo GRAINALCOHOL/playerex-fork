@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.bibireden.playerex.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EntityRendererMixin",
+    "LocalPlayerMixin",
+    "ItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}
